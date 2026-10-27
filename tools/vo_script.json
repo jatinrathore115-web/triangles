@@ -1,0 +1,450 @@
+[
+  {
+    "id": "vo001",
+    "line": "Sunnyside and Riverdale sit on opposite banks of the river.",
+    "spoken": "Sunnyside and Riverdale sit on opposite banks of the river.",
+    "context": "intro story 1",
+    "clip": "vo001"
+  },
+  {
+    "id": "vo002",
+    "line": "Choose the right triangular frames and build the bridge that connects them.",
+    "spoken": "Choose the right triangular frames and build the bridge that connects them.",
+    "context": "intro story 2",
+    "clip": "vo002"
+  },
+  {
+    "id": "vo003",
+    "line": "Select a frame\nRead its markings",
+    "spoken": "Select a frame. Read its markings.",
+    "context": "intro step 1",
+    "clip": "vo003"
+  },
+  {
+    "id": "vo004",
+    "line": "Place it with the crane\nThe bridge tests the fit",
+    "spoken": "Place it with the crane. The bridge tests the fit.",
+    "context": "intro step 2",
+    "clip": "vo004"
+  },
+  {
+    "id": "vo005",
+    "line": "Complete all 6 stages\nThen test your bridge",
+    "spoken": "Complete all six stages. Then test your bridge.",
+    "context": "intro step 3",
+    "clip": "vo005"
+  },
+  {
+    "id": "vo006",
+    "line": "Choose a triangle with exactly 2 equal sides.",
+    "spoken": "Choose a triangle with exactly two equal sides.",
+    "context": "m1-isosceles instruction",
+    "clip": "vo006"
+  },
+  {
+    "id": "vo007",
+    "line": "Click a frame to select it",
+    "spoken": "Click a frame to select it.",
+    "context": "idle nudge",
+    "clip": "vo007"
+  },
+  {
+    "id": "vo053",
+    "line": "Not quite. All 3 sides of that frame are 6 m.",
+    "spoken": "Not quite. All three sides of that frame are six metres.",
+    "context": "m1-isosceles wrong pick equilateral-6",
+    "clip": "vo053"
+  },
+  {
+    "id": "vo054",
+    "line": "Not quite. Its sides are 6 m, 9 m and 10 m. None match.",
+    "spoken": "Not quite. Its sides are six metres, nine metres and ten metres. None match.",
+    "context": "m1-isosceles wrong pick scalene-6-10-9",
+    "clip": "vo054"
+  },
+  {
+    "id": "vo008",
+    "line": "Look for exactly 2 equal sides.",
+    "spoken": "Look for exactly two equal sides.",
+    "context": "m1-isosceles hint 1",
+    "clip": "vo008"
+  },
+  {
+    "id": "vo009",
+    "line": "Matching tick marks show equal sides.",
+    "spoken": "Matching tick marks show equal sides.",
+    "context": "m1-isosceles hint 2",
+    "clip": "vo009"
+  },
+  {
+    "id": "vo010",
+    "line": "Glowing sides are equal. Which frame has exactly two?",
+    "spoken": "Glowing sides are equal. Which frame has exactly two?",
+    "context": "m1-isosceles hint 3",
+    "clip": "vo010"
+  },
+  {
+    "id": "vo055",
+    "line": "PERFECT FIT · SECTION 1 OF 6\nIsosceles Triangle\nExactly 2 equal sides.\nTwo sides are 8 m and one is 6 m.",
+    "spoken": "Perfect fit! Section one of six. Isosceles Triangle. Exactly two equal sides. Two sides are eight metres and one is six metres.",
+    "context": "m1-isosceles correct",
+    "clip": "vo055"
+  },
+  {
+    "id": "vo012",
+    "line": "Choose an equilateral triangle.",
+    "spoken": "Choose an equilateral triangle.",
+    "context": "m2-equilateral instruction",
+    "clip": "vo012"
+  },
+  {
+    "id": "vo056",
+    "line": "Not quite. Two sides are 9.5 m and one is 12 m. It is isosceles.",
+    "spoken": "Not quite. Two sides are nine point five metres and one is twelve metres. It is isosceles.",
+    "context": "m2-equilateral wrong pick isosceles-12-9.5",
+    "clip": "vo056"
+  },
+  {
+    "id": "vo057",
+    "line": "Not quite. Its sides are 8 m, 11 m and 12 m. None match.",
+    "spoken": "Not quite. Its sides are eight metres, eleven metres and twelve metres. None match.",
+    "context": "m2-equilateral wrong pick scalene-12-11-8",
+    "clip": "vo057"
+  },
+  {
+    "id": "vo013",
+    "line": "Equilateral means all 3 sides are equal.",
+    "spoken": "Equilateral means all three sides are equal.",
+    "context": "m2-equilateral hint 1",
+    "clip": "vo013"
+  },
+  {
+    "id": "vo014",
+    "line": "Every side must carry the same tick mark.",
+    "spoken": "Every side must carry the same tick mark.",
+    "context": "m2-equilateral hint 2",
+    "clip": "vo014"
+  },
+  {
+    "id": "vo015",
+    "line": "Glowing sides are equal. Which frame has all three?",
+    "spoken": "Glowing sides are equal. Which frame has all three?",
+    "context": "m2-equilateral hint 3",
+    "clip": "vo015"
+  },
+  {
+    "id": "vo058",
+    "line": "SPOT ON · SECTION 2 OF 6\nEquilateral Triangle\nAll 3 sides are equal.\nAll 3 sides of this frame are 12 m.",
+    "spoken": "Spot on! Section two of six. Equilateral Triangle. All three sides are equal. All three sides of this frame are twelve metres.",
+    "context": "m2-equilateral correct",
+    "clip": "vo058"
+  },
+  {
+    "id": "vo017",
+    "line": "Choose a triangle where all 3 sides have different lengths.",
+    "spoken": "Choose a triangle where all three sides have different lengths.",
+    "context": "m3-scalene instruction",
+    "clip": "vo017"
+  },
+  {
+    "id": "vo059",
+    "line": "Not quite. Two sides are 9 m and one is 6 m. It is isosceles.",
+    "spoken": "Not quite. Two sides are nine metres and one is six metres. It is isosceles.",
+    "context": "m3-scalene wrong pick isosceles-6-9-9",
+    "clip": "vo059"
+  },
+  {
+    "id": "vo060",
+    "line": "Not quite. All 3 sides of that frame are 6 m. It is equilateral.",
+    "spoken": "Not quite. All three sides of that frame are six metres. It is equilateral.",
+    "context": "m3-scalene wrong pick equilateral-6",
+    "clip": "vo060"
+  },
+  {
+    "id": "vo018",
+    "line": "No two sides can be the same length.",
+    "spoken": "No two sides can be the same length.",
+    "context": "m3-scalene hint 1",
+    "clip": "vo018"
+  },
+  {
+    "id": "vo019",
+    "line": "Different tick marks mean different lengths.",
+    "spoken": "Different tick marks mean different lengths.",
+    "context": "m3-scalene hint 2",
+    "clip": "vo019"
+  },
+  {
+    "id": "vo020",
+    "line": "Glowing sides are equal. Pick the frame with none.",
+    "spoken": "Glowing sides are equal. Pick the frame with none.",
+    "context": "m3-scalene hint 3",
+    "clip": "vo020"
+  },
+  {
+    "id": "vo061",
+    "line": "WELL DONE · SECTION 3 OF 6\nScalene Triangle\nAll 3 sides are different.\nIts sides are 6 m, 9 m and 10 m. None match.",
+    "spoken": "Well done! Section three of six. Scalene Triangle. All three sides are different. Its sides are six metres, nine metres and ten metres. None match.",
+    "context": "m3-scalene correct",
+    "clip": "vo061"
+  },
+  {
+    "id": "vo022",
+    "line": "STAGE 1 COMPLETE\nTriangles classified by their sides",
+    "spoken": "Stage one complete. Triangles classified by their sides.",
+    "context": "checkpoint banner",
+    "clip": "vo022"
+  },
+  {
+    "id": "vo023",
+    "line": "ISOSCELES\nExactly 2 equal sides",
+    "spoken": "Isosceles. Exactly two equal sides.",
+    "context": "checkpoint tag isosceles",
+    "clip": "vo023"
+  },
+  {
+    "id": "vo024",
+    "line": "EQUILATERAL\nAll 3 sides equal",
+    "spoken": "Equilateral. All three sides equal.",
+    "context": "checkpoint tag equilateral",
+    "clip": "vo024"
+  },
+  {
+    "id": "vo025",
+    "line": "SCALENE\nAll 3 sides different",
+    "spoken": "Scalene. All three sides different.",
+    "context": "checkpoint tag scalene",
+    "clip": "vo025"
+  },
+  {
+    "id": "vo026",
+    "line": "STAGE 2 · ANGLES\nNow classify triangles by their angles",
+    "spoken": "Stage two, angles. Now classify triangles by their angles.",
+    "context": "stage 2 banner",
+    "clip": "vo026"
+  },
+  {
+    "id": "vo027",
+    "line": "Choose an acute-angled triangle.",
+    "spoken": "Choose an acute-angled triangle.",
+    "context": "m4-acute instruction",
+    "clip": "vo027"
+  },
+  {
+    "id": "vo062",
+    "line": "Not quite. Its largest angle is 118°, more than 90°.",
+    "spoken": "Not quite. Its largest angle is one hundred and eighteen degrees, more than ninety degrees.",
+    "context": "m4-acute wrong pick obtuse-8-10.5-4",
+    "clip": "vo062"
+  },
+  {
+    "id": "vo063",
+    "line": "Not quite. Its largest angle is exactly 90°.",
+    "spoken": "Not quite. Its largest angle is exactly ninety degrees.",
+    "context": "m4-acute wrong pick right-8-10-6",
+    "clip": "vo063"
+  },
+  {
+    "id": "vo028",
+    "line": "Every angle must be less than 90°.",
+    "spoken": "Every angle must be less than ninety degrees.",
+    "context": "m4-acute hint 1",
+    "clip": "vo028"
+  },
+  {
+    "id": "vo029",
+    "line": "Read each angle marked on the frames.",
+    "spoken": "Read each angle marked on the frames.",
+    "context": "m4-acute hint 2",
+    "clip": "vo029"
+  },
+  {
+    "id": "vo030",
+    "line": "The largest angle of each frame is lit. Is it under 90°?",
+    "spoken": "The largest angle of each frame is lit. Is it under ninety degrees?",
+    "context": "m4-acute hint 3",
+    "clip": "vo030"
+  },
+  {
+    "id": "vo064",
+    "line": "GREAT READING · SECTION 4 OF 6\nAcute Triangle\nAll 3 angles are less than 90°.\nIts angles are 49°, 52° and 79°.",
+    "spoken": "Great reading! Section four of six. Acute Triangle. All three angles are less than ninety degrees. Its angles are forty-nine degrees, fifty-two degrees and seventy-nine degrees.",
+    "context": "m4-acute correct",
+    "clip": "vo064"
+  },
+  {
+    "id": "vo032",
+    "line": "Choose a triangle with one 90° angle.",
+    "spoken": "Choose a triangle with one ninety-degree angle.",
+    "context": "m5-right instruction",
+    "clip": "vo032"
+  },
+  {
+    "id": "vo065",
+    "line": "Not quite. Its largest angle is 115°, more than 90°.",
+    "spoken": "Not quite. Its largest angle is one hundred and fifteen degrees, more than ninety degrees.",
+    "context": "m5-right wrong pick obtuse-6-8.5-4",
+    "clip": "vo065"
+  },
+  {
+    "id": "vo066",
+    "line": "Not quite. Its largest angle is 72°, less than 90°. It is acute.",
+    "spoken": "Not quite. Its largest angle is seventy-two degrees, less than ninety degrees. It is acute.",
+    "context": "m5-right wrong pick acute-6-6.5-5",
+    "clip": "vo066"
+  },
+  {
+    "id": "vo033",
+    "line": "Look for a square corner: exactly 90°.",
+    "spoken": "Look for a square corner: exactly ninety degrees.",
+    "context": "m5-right hint 1",
+    "clip": "vo033"
+  },
+  {
+    "id": "vo034",
+    "line": "A small square symbol marks a 90° angle.",
+    "spoken": "A small square symbol marks a ninety-degree angle.",
+    "context": "m5-right hint 2",
+    "clip": "vo034"
+  },
+  {
+    "id": "vo035",
+    "line": "The largest angle of each frame is lit. Which is exactly 90°?",
+    "spoken": "The largest angle of each frame is lit. Which is exactly ninety degrees?",
+    "context": "m5-right hint 3",
+    "clip": "vo035"
+  },
+  {
+    "id": "vo067",
+    "line": "EXACTLY RIGHT · SECTION 5 OF 6\nRight Triangle\nOne angle is exactly 90°.\nThe square mark shows its 90° corner.",
+    "spoken": "Exactly right! Section five of six. Right Triangle. One angle is exactly ninety degrees. The square mark shows its ninety-degree corner.",
+    "context": "m5-right correct",
+    "clip": "vo067"
+  },
+  {
+    "id": "vo037",
+    "line": "Choose a triangle with one angle greater than 90°.",
+    "spoken": "Choose a triangle with one angle greater than ninety degrees.",
+    "context": "m6-obtuse instruction",
+    "clip": "vo037"
+  },
+  {
+    "id": "vo068",
+    "line": "Not quite. Its largest angle is 73°, less than 90°. It is acute.",
+    "spoken": "Not quite. Its largest angle is seventy-three degrees, less than ninety degrees. It is acute.",
+    "context": "m6-obtuse wrong pick acute-9-8-7",
+    "clip": "vo068"
+  },
+  {
+    "id": "vo069",
+    "line": "Not quite. Its largest angle is exactly 90°. It is a right triangle.",
+    "spoken": "Not quite. Its largest angle is exactly ninety degrees. It is a right triangle.",
+    "context": "m6-obtuse wrong pick right-8-10-6",
+    "clip": "vo069"
+  },
+  {
+    "id": "vo038",
+    "line": "Look for one wide, open angle.",
+    "spoken": "Look for one wide, open angle.",
+    "context": "m6-obtuse hint 1",
+    "clip": "vo038"
+  },
+  {
+    "id": "vo039",
+    "line": "An obtuse angle measures more than 90°.",
+    "spoken": "An obtuse angle measures more than ninety degrees.",
+    "context": "m6-obtuse hint 2",
+    "clip": "vo039"
+  },
+  {
+    "id": "vo040",
+    "line": "The largest angle of each frame is lit. Which is over 90°?",
+    "spoken": "The largest angle of each frame is lit. Which is over ninety degrees?",
+    "context": "m6-obtuse hint 3",
+    "clip": "vo040"
+  },
+  {
+    "id": "vo070",
+    "line": "BRILLIANT · SECTION 6 OF 6\nObtuse Triangle\nOne angle is greater than 90°.\nIts largest angle is 134°.",
+    "spoken": "Brilliant! Section six of six. Obtuse Triangle. One angle is greater than ninety degrees. Its largest angle is one hundred and thirty-four degrees.",
+    "context": "m6-obtuse correct",
+    "clip": "vo070"
+  },
+  {
+    "id": "vo042",
+    "line": "FINAL ASSEMBLY\nAll six structural stages installed",
+    "spoken": "Final assembly. All six structural stages installed.",
+    "context": "finale banner",
+    "clip": "vo042"
+  },
+  {
+    "id": "vo043",
+    "line": "BRIDGE COMPLETE\nStructure verified · ready for the load test",
+    "spoken": "Bridge complete. Structure verified, ready for the load test.",
+    "context": "complete banner",
+    "clip": "vo043"
+  },
+  {
+    "id": "vo044",
+    "line": "Vehicle crossing · deflection within limits",
+    "spoken": "Vehicle crossing, deflection within limits.",
+    "context": "load test",
+    "clip": "vo044"
+  },
+  {
+    "id": "vo045",
+    "line": "The bridge carried the load safely",
+    "spoken": "The bridge carried the load safely.",
+    "context": "load test passed",
+    "clip": "vo045"
+  },
+  {
+    "id": "vo046",
+    "line": "STRUCTURAL REPORT",
+    "spoken": "Structural report.",
+    "context": "report title",
+    "clip": "vo046"
+  },
+  {
+    "id": "vo047",
+    "line": "Isosceles\nExactly 2 equal sides",
+    "spoken": "Isosceles. Exactly two equal sides.",
+    "context": "report isosceles",
+    "clip": "vo023"
+  },
+  {
+    "id": "vo048",
+    "line": "Equilateral\nAll 3 sides equal",
+    "spoken": "Equilateral. All three sides equal.",
+    "context": "report equilateral",
+    "clip": "vo024"
+  },
+  {
+    "id": "vo049",
+    "line": "Scalene\nAll 3 sides different",
+    "spoken": "Scalene. All three sides different.",
+    "context": "report scalene",
+    "clip": "vo025"
+  },
+  {
+    "id": "vo050",
+    "line": "Acute\nAll angles < 90°",
+    "spoken": "Acute. All angles less than ninety degrees.",
+    "context": "report acute",
+    "clip": "vo050"
+  },
+  {
+    "id": "vo051",
+    "line": "Right\nOne angle = 90°",
+    "spoken": "Right. One angle equals ninety degrees.",
+    "context": "report right",
+    "clip": "vo051"
+  },
+  {
+    "id": "vo052",
+    "line": "Obtuse\nOne angle > 90°",
+    "spoken": "Obtuse. One angle greater than ninety degrees.",
+    "context": "report obtuse",
+    "clip": "vo052"
+  }
+]

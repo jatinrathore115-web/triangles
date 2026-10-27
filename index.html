@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" href="data:," />
+    <title>Bridge Builder: Types of Triangles</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: linear-gradient(180deg, #4f97d6 0%, #8cc3ea 45%, #2f8fb5 70%, #8a6f4d 100%);
+        overflow: hidden;
+      }
+      #game {
+        width: 100vw;
+        height: 100vh;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      (function () {
+        // The SOURCE page only runs under the Vite dev server (it injects /@vite/client and
+        // resolves `import 'phaser'`). Opened from disk (file://) or from a plain static server
+        // such as VS Code Live Server, forward to the self-contained build instead.
+        var isSourcePage = !!document.querySelector('script[type="module"][src$="src/main.js"]');
+        var underVite = !!document.querySelector('script[src*="@vite/client"]');
+        if (isSourcePage && !underVite) {
+          location.replace('dist/BridgeEngineer.html');
+          return;
+        }
+        // Last-resort help if the game still has not started. It can never block input
+        // (pointer-events: none) and removes itself as soon as the game canvas appears.
+        if (!isSourcePage) return;
+        setTimeout(function () {
+          if (document.querySelector('canvas')) return;
+          var m = document.createElement('div');
+          m.style.cssText = 'position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(13,27,43,.92);padding:24px;pointer-events:none;z-index:1';
+          var timer = setInterval(function () {
+            if (document.querySelector('canvas')) {
+              m.remove();
+              clearInterval(timer);
+            }
+          }, 500);
+          m.innerHTML =
+            '<div style="max-width:720px;font:600 22px/1.6 Segoe UI,sans-serif;color:#f6f1e6;text-align:center">' +
+            'The game could not start.<br>Double-click <b>PLAY-GAME.bat</b> in the project folder,<br>' +
+            'or open <b>dist/BridgeEngineer.html</b>.</div>';
+          document.body.appendChild(m);
+        }, 12000);
+      })();
+    </script>
+  </body>
+</html>

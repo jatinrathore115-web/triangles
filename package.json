@@ -1,0 +1,24 @@
+{
+  "name": "triangle-bridge-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Types of Triangles - bridge building game (vertical slice: isosceles mission)",
+  "scripts": {
+    "start": "vite --open",
+    "dev": "vite",
+    "build": "vite build && node scripts/make-standalone.mjs",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-data.mjs",
+    "qa": "node scripts/qa-run.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow": "^5.2.6",
+    "@fontsource/barlow-condensed": "^5.2.6",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.10.0",
+    "vite": "^6.3.5"
+  }
+}
